@@ -6,7 +6,7 @@ salario = float(input("Digite seu salário: "))
 
 perc = float(input("Digite o percentual de bônus: "))
 
-# Convertendo o percentual para decimal
+# Convertendo o percentual para decimal - revisando
 perc_decimal = perc / 100
 
 bonus = CONSTANTE_BONUS + salario * perc_decimal
